@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterLogin.master.cs" Inherits="MasterLogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin:0px;padding:0px">
+    <form id="form1" runat="server" style="margin:0 auto;background-color:white">
+    <div id="topContent" style="background-color:dodgerblue;height:150px;width:100%;text-align:center">  
+        <table style="width:100%" border="0">
+            <tr style="height:45px">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:45px">
+                <td></td>
+                <td>
+                    <asp:Label ID="Label1" runat="server" Text="RALEIGH     MEDICAL     ASSOCIATES" Font-Bold="true" Font-Names="Times New Roman" Font-Size="XX-Large" ForeColor="White"></asp:Label>
+                </td>
+                <td></td>
+            </tr>
+            <tr style="height:45px">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+    </div>
+   
+    <div id="mainContent" style="background-color:#efeeef;height:750px;width:1000px; margin:0 auto">
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+       <%-- <div id="leftContent">
+        <h3>Lessons</h3>
+        <ul>
+        <li>TODO</li>
+        </ul>
+        <h3>News</h3>
+        <ul>
+        <li>TODO</li>
+        </ul>
+    </div>--%>    <div id="footerContent" style="background-color:dodgerblue;height:50px;width:1000px; margin:0 auto;text-align:center">      <table style="width:100%" border="0">
+            <tr style="height:10px">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr style="height:20px">
+                <td></td>
+                <td>
+                    <asp:Label ID="Label2" runat="server" Text="All Rights Reserved" Font-Bold="true" Font-Names="Times New Roman" Font-Size="Medium" ForeColor="White"></asp:Label>
+                </td>
+                <td></td>
+            </tr>
+            <tr style="height:5px">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
